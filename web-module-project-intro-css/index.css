@@ -91,6 +91,7 @@ nav {
   header{
     display: inline-block;
     margin: auto;
+    margin-left: 10rem;
   }
   h1{
     font-family: 'Chelsea Market', cursive;
@@ -98,23 +99,27 @@ nav {
   }
 
   .header_info { 
-    text-align: center;
     margin: auto;
     width: auto;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-left: 25rem;
   }
   
   .header_info_1{
     font-size: 1.5rem;
-    text-align: center;
     width: 50rem;
     margin: auto;
+    padding: 1rem;
+    margin-left: 25rem;
   }
 
   .header_info_2{
     font-size: 1.5rem;
     width: 30rem;
     text-align: center;
-    margin: auto;
+    margin-left: 30rem;
+    padding: 1rem;
   }
 
 header img{
@@ -159,7 +164,7 @@ img:hover {
 footer{
   background-color: #F9E7DC;
   margin-top: 6rem;
-  width: 98%;
+  width: 100%;
 }
 footer img{
   max-height: 15.625rem;
