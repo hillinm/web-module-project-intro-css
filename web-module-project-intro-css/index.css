@@ -46,3 +46,122 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.container{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+nav {
+  text-align: center;
+}
+.button1 {
+    background-color: #FF764E;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    width: 15rem;
+  }
+  .button2 {
+    background-color: #5ED3EB;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    width: 15rem;
+  }
+  .button3 {
+    background-color: #FFCD69;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    width: 15rem;
+  }
+  header{
+    display: inline-block;
+    margin: auto;
+  }
+  h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+  }
+
+  .header_info { 
+    text-align: center;
+    margin: auto;
+    width: auto;
+  }
+  
+  .header_info_1{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50rem;
+    margin: auto;
+  }
+
+  .header_info_2{
+    font-size: 1.5rem;
+    width: 30rem;
+    text-align: center;
+    margin: auto;
+  }
+
+header img{
+  margin-top: 5%;
+  border-radius: 50%;
+  max-width: 25%;
+  float: left;
+}
+p{
+  font-family: 'Roboto Mono', monospace;
+}
+img {
+  transition: transform 0.8s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
+.main_text_body {
+  display: block;
+  background-color: #DDB9A3;
+  color: white;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.things_to_know {
+  text-align: center;
+  display: block;
+}
+.things_to_know img {
+  max-width: 15%;
+  margin-top: 3rem;
+}
+.things_to_know p {
+  max-width: 25%;
+  text-align: center;
+  margin: auto;
+}
+footer{
+  background-color: #F9E7DC;
+  margin-top: 6rem;
+  width: 98%;
+}
+footer img{
+  max-height: 15.625rem;
+  width: 100%;
+}
