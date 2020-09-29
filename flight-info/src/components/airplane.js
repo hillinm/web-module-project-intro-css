@@ -15,12 +15,12 @@ export default function AirportPage() {
             .catch((error) => console.log("error"));
           }
 
-useEffect(effectFn, [setAirplane]);
+useEffect(effectFn);
 
     return (
         <div className='character'>
         {airplane.map((airplane) => {
-          return <AirplaneCard 
+          return <AirplaneCard key={airplane[0]}
                     flight={airplane[1]}
                     country={airplane[2]}
                     latitude={airplane[6]}
